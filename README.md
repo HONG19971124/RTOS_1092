@@ -25,9 +25,9 @@
     OSPrioHighRdy = prio;
 }
  ```
- CPP main.c :[main.c(2 task)](https://github.com/HONG19971124/RTOS-1092/blob/CPP-resoure/cpp/SOFTWARE/uCOS-II/EX1_x86L/BC45/SOURCE/TEST.C)  
-            :[main.c(3 task)](https://github.com/HONG19971124/RTOS-1092/blob/CPP-resoure/cpp2/SOFTWARE/uCOS-II/EX1_x86L/BC45/SOURCE/TEST.C)  
- CPP implement : [OS_MUTEX.c](https://github.com/HONG19971124/RTOS-1092/blob/CPP-resoure/cpp/SOFTWARE/uCOS-II/SOURCE/OS_MUTEX.C)   
+ CPP main.c :[main.c(2 task)](https://github.com/HONG19971124/RTOS_1092/blob/main/cpp/SOFTWARE/uCOS-II/EX1_x86L/BC45/SOURCE/TEST.C)  
+            :[main.c(3 task)](https://github.com/HONG19971124/RTOS_1092/blob/main/cpp2/SOFTWARE/uCOS-II/EX1_x86L/BC45/SOURCE/TEST.C)  
+ CPP implement : [OS_MUTEX.c](https://github.com/HONG19971124/RTOS_1092/blob/main/cpp/SOFTWARE/uCOS-II/SOURCE/OS_MUTEX.C)   
  *Code :(CPP)*  
  ```C
  void  OSMutexPend (OS_EVENT *pevent, INT16U timeout, INT8U *err)
@@ -181,9 +181,9 @@
 }
  ```
  ### Result :  (EDF)
- ![EDF 2task](https://github.com/HONG19971124/RTOS-1092/blob/EDF-scheduling/EDF_1result.png)
- ![EDF 3task](https://github.com/HONG19971124/RTOS-1092/blob/EDF-scheduling/EDF_2result.png)
+ ![EDF 2task](https://github.com/HONG19971124/RTOS_1092/blob/main/EDF/EDF_1result.png)
+ ![EDF 3task](https://github.com/HONG19971124/RTOS_1092/blob/main/EDF_2result.png)
  ### Result : (CPP)
- ![CPP 2task](https://github.com/HONG19971124/RTOS-1092/blob/CPP-resoure/CPP_result1.png)
- ![CPP 3task](https://github.com/HONG19971124/RTOS-1092/blob/CPP-resoure/CPP_resule2.png)
+ ![CPP 2task](https://github.com/HONG19971124/RTOS_1092/blob/main/CPP_result1.png)
+ ![CPP 3task](https://github.com/HONG19971124/RTOS_1092/blob/main/CPP_resule2.png)
  
