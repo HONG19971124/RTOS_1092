@@ -9,6 +9,9 @@
 ###
 ###
  *Code :(EDF)*  
+ EDF main.c :[main.c(2 task)](https://github.com/HONG19971124/RTOS_1092/blob/main/EDF/EDF1/SOFTWARE/uCOS-II/EX1_x86L/BC45/SOURCE/TEST.C)  
+             [main.c(3 task)](https://github.com/HONG19971124/RTOS_1092/blob/main/EDF/EDF2/SOFTWARE/uCOS-II/EX1_x86L/BC45/SOURCE/TEST.C)  
+             [OS_CORE.c](https://github.com/HONG19971124/RTOS_1092/blob/main/EDF/EDF1/SOFTWARE/uCOS-II/SOURCE/OS_CORE.C)  
  ```C
  static void OS_SchedNew(void)
 {
@@ -25,9 +28,9 @@
     OSPrioHighRdy = prio;
 }
  ```
- CPP main.c :[main.c(2 task)](https://github.com/HONG19971124/RTOS_1092/blob/main/cpp/SOFTWARE/uCOS-II/EX1_x86L/BC45/SOURCE/TEST.C)  
-            :[main.c(3 task)](https://github.com/HONG19971124/RTOS_1092/blob/main/cpp2/SOFTWARE/uCOS-II/EX1_x86L/BC45/SOURCE/TEST.C)  
- CPP implement : [OS_MUTEX.c](https://github.com/HONG19971124/RTOS_1092/blob/main/cpp/SOFTWARE/uCOS-II/SOURCE/OS_MUTEX.C)   
+ CPP main.c :[main.c(2 task)](https://github.com/HONG19971124/RTOS_1092/blob/main/CPP/cpp/SOFTWARE/uCOS-II/EX1_x86L/BC45/SOURCE/TEST.C)  
+            :[main.c(3 task)](https://github.com/HONG19971124/RTOS_1092/blob/main/CPP/cpp2/SOFTWARE/uCOS-II/EX1_x86L/BC45/SOURCE/TEST.C)  
+ CPP implement : [OS_MUTEX.c](https://github.com/HONG19971124/RTOS_1092/blob/main/CPP/cpp/SOFTWARE/uCOS-II/SOURCE/OS_MUTEX.C)   
  *Code :(CPP)*  
  ```C
  void  OSMutexPend (OS_EVENT *pevent, INT16U timeout, INT8U *err)
