@@ -182,8 +182,8 @@
  ```
  ### Result :  (EDF)
  ![EDF 2task](https://github.com/HONG19971124/RTOS_1092/blob/main/EDF/EDF_1result.png)
- ![EDF 3task](https://github.com/HONG19971124/RTOS_1092/blob/main/EDF_2result.png)
+ ![EDF 3task](https://github.com/HONG19971124/RTOS_1092/blob/main/EDF/EDF_2result.png)
  ### Result : (CPP)
- ![CPP 2task](https://github.com/HONG19971124/RTOS_1092/blob/main/CPP_result1.png)
- ![CPP 3task](https://github.com/HONG19971124/RTOS_1092/blob/main/CPP_resule2.png)
+ ![CPP 2task](https://github.com/HONG19971124/RTOS_1092/blob/main/CPP/CPP_resule1.png)
+ ![CPP 3task](https://github.com/HONG19971124/RTOS_1092/blob/main/CPP/CPP_resule2.png)
  
